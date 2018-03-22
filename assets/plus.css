@@ -122,7 +122,7 @@ p, h1, h2, h3, h4, ul
 	justify-content: center;
 }
 
-#Scrollable #PlusOverview
+#Scrollable #MinusOverview
 {
 	margin-top: 0px;
 }
@@ -302,7 +302,7 @@ h2
 
 /* Overview */
 
-#PlusOverview
+#MinusOverview
 {
 	height: 1950px;
 
@@ -313,7 +313,7 @@ h2
 	z-index: 0;
 }
 
-#PlusOverview .Title
+#MinusOverview .Title
 {
 	margin-top: 1050px;
 
@@ -322,7 +322,7 @@ h2
 	font-weight: bolder;
 }
 
-#PlusOverview .SubTitle
+#MinusOverview .SubTitle
 {
 	padding-top: 20px;
 	font-size: 31px;
@@ -337,7 +337,7 @@ h2
 
 }
 
-#PlusOverview .Copy
+#MinusOverview .Copy
 {
 	margin-top: 20px;
 	margin-left: auto;
@@ -351,7 +351,7 @@ h2
 	width: 700px;
 }
 
-#PlusOverview .CopySections
+#MinusOverview .CopySections
 {
 	padding-top: 60px;
 	font-size: 22px;
@@ -367,7 +367,7 @@ h2
 	-webkit-text-fill-color: transparent;
 }
 
-#PlusOverview .SubscribeInGame
+#MinusOverview .SubscribeInGame
 {
 	margin-top: 90px;
 	text-align: center;
@@ -445,7 +445,7 @@ h2
 	color:#BD934E ;
 }
 
-#PlusOverview .SubText
+#MinusOverview .SubText
 {
 	display: flex;
 	justify-content: center;
@@ -453,7 +453,7 @@ h2
 	font-family: Radiance-SemiBold;
 }
 
-#PlusOverview .SubText > div
+#MinusOverview .SubText > div
 {
 	text-align: center;
 	color: #C5A35E;
@@ -462,7 +462,7 @@ h2
 	font-size: 17px;
 }
 
-#PlusOverview .SubText .Longer
+#MinusOverview .SubText .Longer
 {
 	padding-top: 20px;
 	width: 486px;
@@ -471,20 +471,20 @@ h2
 	border: 1px solid #6F5D38;
 }
 
-#PlusOverview .SubText .Longer .Header
+#MinusOverview .SubText .Longer .Header
 {
 	color: #E4DDBF;
 	font-family: Radiance-SemiBold;
 }
 
-#PlusOverview .SubText .Trial
+#MinusOverview .SubText .Trial
 {
 	margin-top: 14px;
 	width: 480px;
 	line-height: 28px;
 }
 
-#PlusOverview .SubText .Trial .Header
+#MinusOverview .SubText .Trial .Header
 {
 	font-size: 24px;
 	color: #E4DDBF;
@@ -492,7 +492,7 @@ h2
 }
 
 
-#PlusOverview .SubText .Right .HorizonalLine
+#MinusOverview .SubText .Right .HorizonalLine
 {
 	width: 30px;
 	height: 0px;
@@ -500,13 +500,13 @@ h2
 	margin: 12px auto;
 }
 
-#PlusOverview .SubText .Right .Expires
+#MinusOverview .SubText .Right .Expires
 {
 	color: #96733C;
 	font-size: 16px;
 }
 
-#PlusOverview .NonRenewing
+#MinusOverview .NonRenewing
 {
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -519,7 +519,7 @@ h2
 /* Progression */
 
 
-#PlusProgression
+#MinusProgression
 {
 }
 
@@ -589,7 +589,7 @@ h2
 	width:700px;
 }
 
-#PlusProgression .HeroBadgeVideo
+#MinusProgression .HeroBadgeVideo
 {
 	margin-left: auto;
 	margin-right: auto;
@@ -790,7 +790,7 @@ h2
 
 /* Assistant */
 
-#PlusAssistant
+#MinusAssistant
 {
 }
 
@@ -945,7 +945,7 @@ h2
 
 /* Analytics */
 
-#PlusAnalytics
+#MinusAnalytics
 {
 }
 
@@ -1062,7 +1062,7 @@ h2
 	padding-right: 140px;
 }
 
-#PlusPerks
+#MinusPerks
 {
 	margin-top: -64px;
 	justify-content: center;
