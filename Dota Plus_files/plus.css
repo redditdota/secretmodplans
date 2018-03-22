@@ -526,7 +526,7 @@ h2
 #Vanity
 {
 	height: 932px;
-	background: url( 'http://cdn.dota2.com/apps/dota2/images/plus/bg_vanity.jpg' );
+	background: url( 'tusk.png' );
 	background-position: center;
 	background-repeat: no-repeat;
 
@@ -557,7 +557,7 @@ h2
 #HeroBadges
 {
 	height: 1080px;
-	background: url( 'http://cdn.dota2.com/apps/dota2/images/plus/progression_hero_badges.png' );
+	background: url( 'badges2.png' );
 	background-position: center;
 	background-repeat: no-repeat;
 	display: flex;
@@ -720,7 +720,7 @@ h2
 	height: 496px;
 	margin: auto;
 
-	background: url( 'http://cdn.dota2.com/apps/dota2/images/plus/bg_chatwheel.jpg' );
+	background: url( 'chatwheel.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 }
@@ -827,7 +827,7 @@ h2
 {
 	margin: auto;
 	height: 1540px;
-	background: url( 'http://cdn.dota2.com/apps/dota2/images/plus/bg_guides.jpg' );
+	background: url( 'ass_cis_tant.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 }
@@ -1267,7 +1267,7 @@ h2
 	height: 1320px;
 	padding-top: 150px;
 
-	background: url( 'http://cdn.dota2.com/apps/dota2/images/plus/bg_wrapup.jpg' );
+	background: url( 'bg_wrapup.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 }
