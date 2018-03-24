@@ -618,7 +618,7 @@ h2
 
  #HeroChallenges
 {
-	background: url( 'http://cdn.dota2.com/apps/dota2/images/plus/bg_challenges.jpg' );
+	background: url( 'bountyhunter_minus.png' );
 	background-position-x: center;
 	background-repeat: no-repeat;
 
@@ -743,7 +743,7 @@ h2
 	max-width: 1600px;
 	height: 500px;
 
-	background: url( 'http://cdn.dota2.com/apps/dota2/images/plus/bg_weekly.jpg' );
+	background: url( 'minuschallenges_panels.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 
@@ -1021,7 +1021,7 @@ h2
 	margin: auto;
 	max-width: 1600px;
 	height: 699px;
-	background: url( 'http://cdn.dota2.com/apps/dota2/images/plus/bg_ingame.png' );
+	background: url( 'shittywizard_minus.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 	margin-top: -80px;
