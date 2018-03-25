@@ -140,6 +140,14 @@ p, h1, h2, h3, h4, ul
 	width: 1050px;
 }
 
+#Relics.Container .Inner
+{
+	background: url("snoo.png") no-repeat;
+	background-size: 100px;
+	background-position: left center;
+	padding-left: 100px;
+}
+
 .Container, 
 .Container .Inner
 {
@@ -643,6 +651,10 @@ h2
 	text-align: center;
 
 	width: 900px;
+	background: url('https://b.thumbs.redditmedia.com/YqaAFvkYSlBRejljti-UVtCsPaVbI3PLeC5-9QZCmyg.png') no-repeat;
+	background-size: 1000px;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 
 
@@ -692,7 +704,7 @@ h2
 
 #Relics
 {
-	height: 1012px;
+	height: 1450px;
 	background: url( 'relics_dotaminus.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
@@ -709,9 +721,20 @@ h2
 	padding-top: 20px;
 	margin: auto;
 
-	width: 940px;
+	/* width: 940px; */
 
 	text-align: center;
+
+
+	text-align: center;
+    border: 1px solid transparent;
+    background: #6441a4;
+    color: #FFF;
+    padding: .6rem .8rem;
+    margin-left: 370px;
+    margin-top: 20px;
+    width: 200px;
+    background-color: #b82f19;
 }
 
 #HeroChatWheel
@@ -894,7 +917,7 @@ h2
 	max-width: 1600px;
 	height: 460px;
 
-	background: url( 'http://cdn.dota2.com/apps/dota2/images/plus/bg_lanes.jpg' );
+	background: url( 'lanestrategy_dotaminus.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 }
@@ -918,7 +941,7 @@ h2
 	max-width: 1600px;
 	height: 1300px;
 
-	background: url( 'http://cdn.dota2.com/apps/dota2/images/plus/bg_hero_suggest.png' );
+	background: url( 'herosuggest_minus.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 	z-index: 2;
