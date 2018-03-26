@@ -977,7 +977,7 @@ h2
 {
 	margin: auto;
 	height: 1064px;
-	background: url( 'http://cdn.dota2.com/apps/dota2/images/plus/bg_death.png' );
+	background: url( 'deathsummary_minus.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 	margin-bottom: -72px;
@@ -1097,7 +1097,7 @@ h2
 	margin: auto;
 	max-width: 1600px;
 	height: 1100px;
-	background: url( 'http://cdn.dota2.com/apps/dota2/images/plus/bg_battlecup.jpg' );
+	background: url( 'perks_minus.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 }
