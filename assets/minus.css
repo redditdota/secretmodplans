@@ -911,25 +911,25 @@ h2
 	padding-top: 20px;
 }
 
-#LaneStrategy
+#PostStrategy
 {
 	margin: auto;
 
 	max-width: 1600px;
 	height: 460px;
 
-	background: url( 'lanestrategy_dotaminus.png' );
+	background: url( 'poststrategy.jpg' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 }
 
-#LaneStrategy h2
+#PostStrategy h2
 {
 	padding-top: 90px;
 
 }
 
-#LaneStrategy .Copy
+#PostStrategy .Copy
 {
 	padding-top: 20px;
 }
