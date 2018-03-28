@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Camps Stacked"
+    content: " Photos Taken with Sccc"
 }
 
 .users-online .number:after {
-    content: " Underlord Ubers";
+    content: " People Smellin' Like Scccuh";
     text-transform: none;
 }
 
@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%jugg-banner%%) no-repeat no-repeat #220501; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%sccc%%) no-repeat no-repeat #220501; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -553,12 +553,12 @@ h1.redditname {display: none;}
 }
 
 .side .usertext a[href*='#newtoheading'] {
-    background: url(%%header-newto%%) no-repeat;
+    background: url(%%header-sccc%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#livestreamheading'] {
-    background: url(%%header-livestream%%) no-repeat;
+    background: url(%%header-sccc%%) no-repeat;
     line-height: 47px;
 }
 
@@ -1903,127 +1903,12 @@ a[href$='#salt-icon'] { background:rgba(89,110,144,0.8) url(%%flair-icons2%%) no
   max-width: none;
 }
 
-/* FLAG ICONS */
-
-a[href="/ae"], a[href="/af"], a[href="/al"], a[href="/ao"], a[href="/ar"],a[href="/at"], a[href="/au"], a[href="/bd"], a[href="/be"], a[href="/bg"],
-a[href="/bo"], a[href="/br"], a[href="/by"], a[href="/ca"], a[href="/ch"], a[href="/cl"], a[href="/cn"],a[href="/co"], a[href="/cr"], a[href="/cu"],
-a[href="/cz"], a[href="/de"], a[href="/dk"], a[href="/ee"], a[href="/eg"], a[href="/es"], a[href="/eu"], a[href="/fi"], a[href="/fr"], a[href="/gb"],
-a[href="/ge"], a[href="/gr"], a[href="/hk"], a[href="/hr"], a[href="/hu"], a[href="/id"], a[href="/ie"], a[href="/il"], a[href="/in"], a[href="/iq"],
-a[href="/ir"], a[href="/is"], a[href="/it"], a[href="/jm"], a[href="/jp"], a[href="/kh"], a[href="/kp"], a[href="/kr"], a[href="/kz"], a[href="/la"],
-a[href="/lb"], a[href="/lk"], a[href="/lt"], a[href="/lu"], a[href="/lv"], a[href="/mk"], a[href="/mm"], a[href="/mn"], a[href="/mx"], a[href="/my"],
-a[href="/ng"], a[href="/nl"], a[href="/no"], a[href="/np"], a[href="/nz"], a[href="/pe"], a[href="/ph"], a[href="/pk"], a[href="/pl"], a[href="/pt"],
-a[href="/ro"], a[href="/rs"], a[href="/ru"], a[href="/se"], a[href="/sg"], a[href="/si"], a[href="/sk"], a[href="/th"], a[href="/tr"], a[href="/tw"],
-a[href="/ua"], a[href="/us"], a[href="/un"], a[href="/uz"], a[href="/vn"], a[href="/za"], a[href="/xx"], a[href="/wo"], a[href="/xa"], a[href="/xb"], 
-a[href="/xc"] {
-width: 16px;
-  height: 11px;
-  display: inline-block;
-  background-position: -9999px -9999px;
-  content: "";
-  position: relative;
-    background-image: url(%%flags%%);
-    z-index: 10!important;
-}
-
-a[href="/ae"]{background-position:-32px 0px}
-a[href="/af"]{background-position:-48px 0px}
-a[href="/al"]{background-position:-96px 0px}
-a[href="/ao"]{background-position:-144px 0px}
-a[href="/ar"]{background-position:-160px 0px}
-a[href="/at"]{background-position:-192px 0px}
-a[href="/au"]{background-position:-208px 0px}
-a[href="/bd"]{background-position:-32px -11px}
-a[href="/be"]{background-position:-48px -11px}
-a[href="/bg"]{background-position:-80px -11px}
-a[href="/bo"]{background-position:-176px -11px}
-a[href="/br"]{background-position:-192px -11px}
-a[href="/by"]{background-position:-16px -22px}
-a[href="/ca"]{background-position:-48px -22px}
-a[href="/ch"]{background-position:-128px -22px}
-a[href="/cl"]{background-position:-176px -22px}
-a[href="/cn"]{background-position:-208px -22px}
-a[href="/co"]{background-position:-224px -22px}
-a[href="/cr"]{background-position:-240px -22px}
-a[href="/cu"]{background-position:0px -33px}
-a[href="/cz"]{background-position:-48px -33px}
-a[href="/de"]{background-position:-64px -33px}
-a[href="/dk"]{background-position:-96px -33px}
-a[href="/ee"]{background-position:-176px -33px}
-a[href="/eg"]{background-position:-192px -33px}
-a[href="/en"]{background-position:-224px -33px}
-a[href="/es"]{background-position:0px -44px}
-a[href="/eu"]{background-position:-32px -44px}
-a[href="/fi"]{background-position:-48px -44px}
-a[href="/fr"]{background-position:-128px -44px}
-a[href="/gb"]{background-position:-160px -44px}
-a[href="/ge"]{background-position:-192px -44px}
-a[href="/gr"]{background-position:-96px -55px}
-a[href="/hk"]{background-position:-192px -55px}
-a[href="/hr"]{background-position:-240px -55px}
-a[href="/hu"]{background-position:-16px -66px}
-a[href="/id"]{background-position:-32px -66px}
-a[href="/ie"]{background-position:-48px -66px}
-a[href="/il"]{background-position:-64px -66px}
-a[href="/in"]{background-position:-96px -66px}
-a[href="/iq"]{background-position:-128px -66px}
-a[href="/ir"]{background-position:-144px -66px}
-a[href="/is"]{background-position:-160px -66px}
-a[href="/it"]{background-position:-176px -66px}
-a[href="/jm"]{background-position:-208px -66px}
-a[href="/jp"]{background-position:-240px -66px}
-a[href="/kh"]{background-position:-32px -77px}
-a[href="/kp"]{background-position:-96px -77px}
-a[href="/kr"]{background-position:-112px -77px}
-a[href="/kz"]{background-position:-160px -77px}
-a[href="/la"]{background-position:-176px -77px}
-a[href="/lb"]{background-position:-192px -77px}
-a[href="/lk"]{background-position:-240px -77px}
-a[href="/lt"]{background-position:-32px -88px}
-a[href="/lu"]{background-position:-48px -88px}
-a[href="/lv"]{background-position:-64px -88px}
-a[href="/mk"]{background-position:-192px -88px}
-a[href="/mm"]{background-position:-224px -88px}
-a[href="/mn"]{background-position:-240px -88px}
-a[href="/mx"]{background-position:-144px -99px}
-a[href="/my"]{background-position:-160px -99px}
-a[href="/ng"]{background-position:0px -110px}
-a[href="/nl"]{background-position:-32px -110px}
-a[href="/no"]{background-position:-48px -110px}
-a[href="/np"]{background-position:-64px -110px}
-a[href="/nz"]{background-position:-112px -110px}
-a[href="/pe"]{background-position:-160px -110px}
-a[href="/ph"]{background-position:-208px -110px}
-a[href="/pk"]{background-position:-224px -110px}
-a[href="/pl"]{background-position:-240px -110px}
-a[href="/pt"]{background-position:-64px -121px}
-a[href="/ro"]{background-position:-144px -121px}
-a[href="/rs"]{background-position:-160px -121px}
-a[href="/ru"]{background-position:-176px -121px}
-a[href="/se"]{background-position:-32px -132px}
-a[href="/sg"]{background-position:-48px -132px}
-a[href="/si"]{background-position:-80px -132px}
-a[href="/sk"]{background-position:-96px -132px}
-a[href="/th"]{background-position:-80px -143px}
-a[href="/tr"]{background-position:-192px -143px}
-a[href="/tw"]{background-position:-240px -143px}
-a[href="/ua"]{background-position:-16px -154px}
-a[href="/us"]{background-position:-64px -154px}
-a[href="/uz"]{background-position:-96px -154px}
-a[href="/vn"]{background-position:-192px -154px}
-a[href="/za"]{background-position:-48px -165px}
-a[href="/xx"]{background-position:-96px -165px}
-a[href="/wo"]{background-position:-112px -165px}
-a[href="/un"]{background-position:-112px -165px}
-a[href="/xb"] {background-position: -128px -165px}
-a[href="/xa"] {background-position: -144px -165px}
-a[href="/xc"] {background-position: -160px -165px}
-
 /* Flair Code Begins */
 
 .flair {
     visibility: visible;
     text-indent: -9999px;
-    background: url(%%heroes%%) no-repeat scroll -9999px -9999px transparent;
+    background: url(%%scccs%%) no-repeat scroll -9999px -9999px transparent;
     height: 28px;
     vertical-align: middle;
     width: 46px;
@@ -2033,7 +1918,7 @@ a[href="/xc"] {background-position: -160px -165px}
 .side .sidecontentbox .flair:hover {
     visibility: visible !important;
     text-indent: -9999px !important;
-    background: url(%%heroes%%) no-repeat scroll -9999px -9999px transparent !important;
+    background: url(%%scccs%%) no-repeat scroll -9999px -9999px transparent !important;
     height: 28px !important;
     vertical-align: middle !important;
     width: 46px !important;
@@ -2114,7 +1999,7 @@ a[href|="/hero"]:after, a[href|="/org"]:after, a[href|="/pennant"]:after, a[href
     content: "";
 }
 
-a[href|="/hero"]:after        {background-image: url(%%heroes%%)}
+a[href|="/hero"]:after        {background-image: url(%%scccs%%)}
 a[href|="/org"]:after          {background-image: url(%%orgs%%)}
 a[href|="/pennant"]:after          {background-image: url(%%pennants%%)}
 a[href|="/custom"]:after           {background-image: url(%%custom%%)}
@@ -2309,108 +2194,6 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-hr, a[href="/org-hr"]:after                     { background-position: 0 -1904px }
 .flair-immortals, a[href="/org-immortals"]:after       { background-position: 0 -1932px }
 .flair-monster, a[href="/org-monster"]:after           { background-position: 0 -1960px }
-
-.flair-teamrs, a[href="/pennant-rs"]:after               { background-position: 0 -0px }
-.flair-teamfnatic, a[href="/pennant-fnatic"]:after       { background-position: 0 -28px }
-.flair-teamdk, a[href="/pennant-dk"]:after               { background-position: 0 -56px }
-.flair-teamlgd, a[href="/pennant-lgd"]:after             { background-position: 0 -84px }
-.flair-teamehome, a[href="/pennant-ehome"]:after         { background-position: 0 -112px }
-.flair-teamtongfu, a[href="/pennant-tongfu"]:after       { background-position: 0 -140px }
-.flair-teamcol, a[href="/pennant-col"]:after             { background-position: 0 -168px }
-.flair-teammouz, a[href="/pennant-mouz"]:after           { background-position: 0 -196px }
-.flair-teammtw, a[href="/pennant-mtw"]:after             { background-position: 0 -224px }
-.flair-teameg, a[href="/pennant-eg"]:after               { background-position: 0 -252px }
-.flair-teamnavi, a[href="/pennant-navi"]:after           { background-position: 0 -280px }
-.flair-teamclg, a[href="/pennant-clg"]:after             { background-position: 0 -308px }
-.flair-teamzenith, a[href="/pennant-zenith"]:after       { background-position: 0 -336px }
-.flair-teamal, a[href="/pennant-al"]:after               { background-position: 0 -364px }
-.flair-teamig, a[href="/pennant-ig"]:after               { background-position: 0 -392px }
-.flair-teamdarer, a[href="/pennant-darer"]:after         { background-position: 0 -420px }
-.flair-teamm5, a[href="/pennant-m5"]:after               { background-position: 0 -448px }
-.flair-teamoj, a[href="/pennant-oj"]:after               { background-position: 0 -476px }
-.flair-teamvp, a[href="/pennant-vp"]:after               { background-position: 0 -504px }
-.flair-teama, a[href="/pennant-a"]:after                 { background-position: 0 -532px }
-.flair-teamtl, a[href="/pennant-tl"]:after               { background-position: 0 -560px }
-.flair-teamquantic, a[href="/pennant-quantic"]:after     { background-position: 0 -588px }
-.flair-teamlgdint, a[href="/pennant-lgdint"]:after       { background-position: 0 -616px }
-.flair-teamdignitas, a[href="/pennant-dignitas"]:after   { background-position: 0 -644px }
-.flair-teammufc, a[href="/pennant-mufc"]:after           { background-position: 0 -672px }
-.flair-teamspeed, a[href="/pennant-speed"]:after         { background-position: 0 -700px }
-.flair-teamsigma, a[href="/pennant-sigma"]:after         { background-position: 0 -728px }
-.flair-teamc9, a[href="/pennant-c9"]:after               { background-position: 0 -756px }
-.flair-teammvp, a[href="/pennant-mvp"]:after             { background-position: 0 -784px }
-.flair-teamrox, a[href="/pennant-rox"]:after             { background-position: 0 -812px }
-.flair-teamehug, a[href="/pennant-ehug"]:after           { background-position: 0 -840px }
-.flair-teamempire, a[href="/pennant-empire"]:after       { background-position: 0 -868px }
-.flair-teamvici, a[href="/pennant-vici"]:after           { background-position: 0 -896px }
-.flair-teamtitan, a[href="/pennant-titan"]:after         { background-position: 0 -924px }
-.flair-teamnewbee, a[href="/pennant-newbee"]:after       { background-position: 0 -952px }
-.flair-teamdt, a[href="/pennant-dt"]:after               { background-position: 0 -980px }
-.flair-teamnavina, a[href="/pennant-navina"]:after       { background-position: 0 -1008px }
-.flair-teamarrow, a[href="/pennant-arrow"]:after         { background-position: 0 -1036px }
-.flair-teamcis, a[href="/pennant-cis"]:after             { background-position: 0 -1064px }
-.flair-teamnyx, a[href="/pennant-nyx"]:after             { background-position: 0 -1092px }
-.flair-teamsecret, a[href="/pennant-secret"]:after       { background-position: 0 -1120px }
-.flair-teamxtcn, a[href="/pennant-xtcn"]:after           { background-position: 0 -1148px }
-.flair-teamtinker, a[href="/pennant-tinker"]:after       { background-position: 0 -1176px }
-.flair-teamanchor, a[href="/pennant-anchor"]:after       { background-position: 0 -1204px }
-.flair-teamnt, a[href="/pennant-nt"]:after               { background-position: 0 -1232px }
-.flair-teambiggod, a[href="/pennant-biggod"]:after       { background-position: 0 -1260px }
-.flair-teamcdec, a[href="/pennant-cdec"]:after           { background-position: 0 -1288px }
-.flair-teamhr, a[href="/pennant-hr"]:after               { background-position: 0 -1316px }
-.flair-teamnip, a[href="/pennant-nip"]:after             { background-position: 0 -1344px }
-.flair-teamrave, a[href="/pennant-rave"]:after           { background-position: 0 -1372px }
-.flair-teamvega, a[href="/pennant-vega"]:after           { background-position: 0 -1400px }
-.flair-teamlc, a[href="/pennant-lc"]:after               { background-position: 0 -1428px }
-.flair-teamog, a[href="/pennant-og"]:after               { background-position: 0 -1456px }
-.flair-teamunknown, a[href="/pennant-unknown"]:after     { background-position: 0 -1484px }
-.flair-teammineski, a[href="/pennant-mineski"]:after     { background-position: 0 -1512px }
-.flair-teamplanetodd, a[href="/pennant-planetodd"]:after { background-position: 0 -1540px }
-.flair-teamarchon, a[href="/pennant-archon"]:after       { background-position: 0 -1568px }
-.flair-teamwings, a[href="/pennant-wings"]:after         { background-position: 0 -1596px }
-.flair-teamtnc, a[href="/pennant-tnc"]:after             { background-position: 0 -1624px }
-.flair-teamescape, a[href="/pennant-escape"]:after       { background-position: 0 -1652px }
-.flair-teamadfinem, a[href="/pennant-af"]:after          { background-position: 0 -1680px }
-.flair-teamfaceless, a[href="/pennant-faceless"]:after   { background-position: 0 -1708px }
-.flair-teamnp, a[href="/pennant-np"]:after               { background-position: 0 -756px }
-.flair-teamdc, a[href="/pennant-dc"]:after               { background-position:0 -1764px }
-.flair-teamsg, a[href="/pennant-sg"]:after               { background-position:0 -1792px }
-.flair-teaminfamous, a[href="/pennant-infamous"]:after   { background-position:0 -1820px }
-.flair-teamkinguin, a[href="/pennant-kinguin"]:after     { background-position:0 -1848px }
-.flair-teamoptic, a[href="/pennant-optic"]:after         { background-position:0 -1876px }
-
-.flair-arcanalina, a[href="/custom-arcanalina"]:after              { background-position: 0 -0px }
-.flair-arcanalc, a[href="/custom-arcanalc"]:after                  { background-position: 0 -28px }
-.flair-arcanatb, a[href="/custom-arcanatb"]:after                  { background-position: 0 -56px }
-.flair-arcanatechies, a[href="/custom-arcanatechies"]:after        { background-position: 0 -84px }
-.flair-arcanasf, a[href="/custom-arcanasf"]:after                  { background-position: 0 -112px }
-.flair-arcanapa, a[href="/custom-arcanapa"]:after                  { background-position: 0 -140px }
-.flair-arcanacm, a[href="/custom-arcanacm"]:after                  { background-position: 0 -168px }
-.flair-reaver, a[href="/custom-reaver"]:after                      { background-position: 0 -196px }
-.flair-forcestaff, a[href="/custom-forcestaff"]:after              { background-position: 0 -224px }
-.flair-matt, a[href="/custom-matt"]:after                          { background-position: 0 -252px }
-.flair-bloodstone, a[href="/custom-bloodstone"]:after              { background-position: 0 -280px }
-.flair-tp, a[href="/custom-tp"]:after                              { background-position: 0 -308px }
-.flair-refresh, a[href="/custom-refresh"]:after                    { background-position: 0 -336px }
-.flair-blink, a[href="/custom-blink"]:after                        { background-position: 0 -364px }
-.flair-midas, a[href="/custom-midas"]:after                        { background-position: 0 -392px }
-.flair-alchypoo, a[href="/custom-alchypoo"]:after                  { background-position: 0 -420px }
-.flair-deso, a[href="/custom-deso"]:after                          { background-position: 0 -448px }
-.flair-skadi, a[href="/custom-skadi"]:after                        { background-position: 0 -476px }
-.flair-tango, a[href="/custom-tango"]:after                        { background-position: 0 -504px }
-.flair-rapier, a[href="/custom-rapier"]:after                      { background-position: 0 -532px }
-.flair-techies, a[href="/custom-techies"]:after                    { background-position: 0 -560px }
-.flair-voidsp, a[href="/custom-voidsp"]:after                      { background-position: 0 -588px }
-.flair-creepymaiden, a[href="/custom-creepymaiden"]:after          { background-position: 0 -616px }
-.flair-arcanazeus, a[href="/custom-arcanazeus"]:after              { background-position: 0 -644px }
-.flair-ironbranch, a[href="/custom-ironbranch"]:after              { background-position: 0 -672px }
-.flair-aegis, a[href="/custom-aegis"]:after                        { background-position: 0 -700px }
-.flair-cheese, a[href="/custom-cheese"]:after                      { background-position: 0 -728px }
-.flair-arcanamonkeyking,a[href="/custom-arcanamonkeyking"]:after   { background-position:0 -756px }
-.flair-arcanajuggernaut,a[href="/custom-arcanajuggernaut"]:after   { background-position:0 -784px }
-.flair-arcanajuggernaut2,a[href="/custom-arcanajuggernaut2"]:after { background-position:0 -812px }
-.flair-arcanawisp,a[href="/custom-arcanawisp"]:after               { background-position:0 -840px }
-.flair-nullifier,a[href="/custom-nullifier"]:after                 { background-position:0 -868px } 
 
 /* Joey fixing techiesface creepymaiden MEMES */
 
@@ -2677,28 +2460,20 @@ background-position:-2px -234px
 	text-align: right;
 }
 
-/* Facebook Themes 
-
-.link .arrow.up, .arrow.upmod {
-    width: 32px;
-    height: 29px;
-    margin-left: -3px;
-    background-image: url(%%facebook-emoji%%);
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
+div.odd .top-matter {
+    background: url(%%sccc-portrait%%) no-repeat;
+    background-size: 50px;
+    background-position: right center;
 }
 
-.link .arrow.down, .arrow.downmod {
-    width: 32px;
-    height: 29px;
-    margin-left: -3px;
-    background-image: url(%%facebook-emoji%%);
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    transform: scaleY(-1);
+div.even .top-matter {
+    background: url(%%sccc-portrait-flip%%) no-repeat;
+    background-size: 50px;
+    background-position: right center;
 }
-*/
 
-/* Fade Flair
-.post-linkflair-esports .flair-teamwings {opacity: .2;}   */
-
+div.stickied .top-matter {
+    background: url(%%kappapride%%) no-repeat;
+    background-size: 50px;
+    background-position: right center;
+}
