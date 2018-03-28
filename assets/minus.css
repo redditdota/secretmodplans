@@ -140,12 +140,39 @@ p, h1, h2, h3, h4, ul
 	width: 1050px;
 }
 
-#Relics.Container .Inner
+#DMCA
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#DMCA.Container .Inner
 {
 	background: url("snoo.png") no-repeat;
 	background-size: 100px;
 	background-position: left center;
 	padding-left: 100px;
+}
+
+#DMCA .Copy
+{
+	padding-top: 20px;
+	margin: auto;
+
+	/* width: 940px; */
+
+	text-align: center;
+
+
+	text-align: center;
+    border: 1px solid transparent;
+    background: #6441a4;
+    color: #FFF;
+    padding: .6rem .8rem;
+    margin-left: 370px;
+    margin-top: 20px;
+    width: 200px;
+    background-color: #b82f19;
 }
 
 .Container, 
@@ -722,20 +749,7 @@ h2
 	padding-top: 20px;
 	margin: auto;
 
-	/* width: 940px; */
-
-	text-align: center;
-
-
-	text-align: center;
-    border: 1px solid transparent;
-    background: #6441a4;
-    color: #FFF;
-    padding: .6rem .8rem;
-    margin-left: 370px;
-    margin-top: 20px;
-    width: 200px;
-    background-color: #b82f19;
+	width: 940px; 
 }
 
 #HeroChatWheel
@@ -1044,7 +1058,7 @@ h2
 {
 	margin: auto;
 	max-width: 1600px;
-	height: 699px;
+	height: 750px;
 	background: url( 'shittywizard_minus.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
