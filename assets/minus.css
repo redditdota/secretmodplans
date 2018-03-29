@@ -561,7 +561,7 @@ h2
 #Vanity
 {
 	height: 932px;
-	background: url( 'tusk.png' );
+	background: url( 'shitposterprog_minus.png' );
 	background-position: center;
 	background-repeat: no-repeat;
 
@@ -804,7 +804,7 @@ h2
 	height: 1174px;
 	margin: auto;
 
-	background: url( 'http://cdn.dota2.com/apps/dota2/images/plus/plus_rewards.png' );
+	background: url( 'minus_rewards.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 	position: relative;
@@ -1106,7 +1106,7 @@ h2
 	justify-content: center;
 }
 
-#BattleCup
+#JungleGuides
 {
 	margin: auto;
 	max-width: 1600px;
@@ -1114,16 +1114,28 @@ h2
 	background: url( 'perks_minus.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
+	background-position-y: 0px;
 }
 
-#BattleCup h2
+#JungleGuides div.Inner
+{
+	margin: auto;
+	max-width: 1600px;
+	height: 1100px;
+	background: url('https://c.wallhere.com/photos/7b/a1/radiant_tower_dota_2_art-586306.jpg!d') no-repeat; 
+	background-position-y: 650px;
+	opacity: 0.8;
+}
+
+
+#JungleGuides h2
 {
 	padding-top: 790px;
 	margin: auto;
 	text-align: center;
 }
 
-#BattleCup .Copy
+#JungleGuides .Copy
 {
 	width: 700px;
 
@@ -1133,7 +1145,7 @@ h2
 	text-align: center;
 }
 
-#BattleCup .Free
+#JungleGuides .Free
 {
 	margin-left: auto;
 	margin-right: auto;
@@ -1429,10 +1441,10 @@ h2
 
 #Footer, #Footer .Inner
 {
-	background-image: url( 'http://cdn.dota2.com/apps/dota2/images/700/footer.jpg' );
+	background-image: url( 'footer_minus.png' );
 	background-color: #000000;
 	background-repeat: no-repeat;
-	height: 187px;
+	height: 287px;
 }
 
 
