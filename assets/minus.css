@@ -1166,7 +1166,7 @@ h2
 	margin: auto;
 	max-width: 1600px;
 	height: 928px;
-	background: url( 'http://cdn.dota2.com/apps/dota2/images/plus/bg_terrain.jpg' );
+	background: url( 'minus_bgterrain.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 }
