@@ -1049,21 +1049,21 @@ h2
 	text-align: center;
 }
 
-#PostGame
+#LoLDiscussion
 {
 	margin: auto;
 	height: 504px;
-	background: url( 'http://cdn.dota2.com/apps/dota2/images/plus/bg_postgame.jpg' );
+	background: url( 'discussion.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 }
 
-#PostGame h2
+#LoLDiscussion h2
 {
 	padding-top: 90px;
 }
 
-#PostGame .Copy
+#LoLDiscussion .Copy
 {
 	padding-top: 20px;
 	padding-left: 100px;
