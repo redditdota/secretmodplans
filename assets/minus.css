@@ -1064,7 +1064,7 @@ h2
 #RankTrends
 {
 	height: 482px;
-	background: url( 'http://cdn.dota2.com/apps/dota2/images/plus/bg_rank.jpg' );
+	background: url( 'globalmeme_minus.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 }
@@ -1137,22 +1137,11 @@ h2
 	margin: auto;
 	max-width: 1600px;
 	height: 1100px;
-	background: url( 'perks_minus.png' );
+	background: url( 'perks_jungle_minus.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 	background-position-y: 0px;
 }
-
-#JungleGuides div.Inner
-{
-	margin: auto;
-	max-width: 1600px;
-	height: 1100px;
-	background: url('https://c.wallhere.com/photos/7b/a1/radiant_tower_dota_2_art-586306.jpg!d') no-repeat; 
-	background-position-y: 650px;
-	opacity: 0.8;
-}
-
 
 #JungleGuides h2
 {
