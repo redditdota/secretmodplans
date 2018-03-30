@@ -589,7 +589,7 @@ h2
 	width:700px;
 }
 
-#HeroBadges
+#ShitpostBadges
 {
 	height: 1080px;
 	background: url( 'badges2.png' );
@@ -601,19 +601,19 @@ h2
 	position: relative;
 }
 
-#HeroBadges .TopBG
+#ShitpostBadges .TopBG
 {
 	margin-left: -300px;
 	margin-top: -940px;
 }
 
-#HeroBadges h2
+#ShitpostBadges h2
 {
 	padding-top: 60px;
 	text-align: center;
 }
 
-#HeroBadges .Copy
+#ShitpostBadges .Copy
 {
 	padding-top: 20px;
 	margin-left: auto;
@@ -624,7 +624,7 @@ h2
 	width:700px;
 }
 
-#MinusProgression .HeroBadgeVideo
+#MinusProgression .ShitpostBadgeVideo
 {
 	margin-left: auto;
 	margin-right: auto;
@@ -638,8 +638,16 @@ h2
 	z-index: 1;
 }
 
+#ShitpostBadges a
+{
+	position: absolute;
+	top: 1280px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 
-#HeroBadges .ExampleImage
+
+#ShitpostBadges .ExampleImage
 {
 	width: 828px;
 	height: 468px;
