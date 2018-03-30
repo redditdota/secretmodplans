@@ -865,10 +865,35 @@ h2
 {
 	margin: auto;
 	height: 1540px;
-	background: url( 'ass_cis_tant.png' );
+	background: url( 'bg_guides.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 }
+
+#AssistantGuides img
+{
+	position: absolute;
+}
+
+#AssistantGuides img.row1 { top: 345px; }
+#AssistantGuides img.row2 { top: 397px; }
+#AssistantGuides img.row21 { top: 420px; }
+#AssistantGuides img.row22 { top: 472px; }
+#AssistantGuides img.row3 { top: 567px; }
+#AssistantGuides img.row4 { top: 619px; }
+#AssistantGuides img.row41 { top: 638px; }
+#AssistantGuides img.row42 { top: 711px; }
+#AssistantGuides img.row43 { top: 787px; }
+#AssistantGuides img.row5 { top: 789px; }
+#AssistantGuides img.row6 { top: 841px; }
+
+
+#AssistantGuides img.col1 { left: 667px; }
+#AssistantGuides img.col2 { left: 739px; }
+#AssistantGuides img.col3 { left: 810px; }
+#AssistantGuides img.col4 { left: 927px; }
+#AssistantGuides img.col5 { left: 999px; }
+#AssistantGuides img.col6 { left: 1070px; }
 
 #AssistantGuides .Left h2
 {
