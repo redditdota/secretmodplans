@@ -175,6 +175,10 @@ p, h1, h2, h3, h4, ul
     background-color: #b82f19;
 }
 
+.Container {
+	overflow: hidden;
+}
+
 .Container, 
 .Container .Inner
 {
@@ -633,6 +637,7 @@ h2
 	
 	margin-top: -540px;
 	margin-bottom: 160px;
+	width: 1000px;
 
 	border: 1px solid #745B35;
 	z-index: 1;
@@ -641,9 +646,9 @@ h2
 #ShitpostBadges a
 {
 	position: absolute;
-	top: 1280px;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	top: 1105px;
+	font-size: 8pt;
+	left: 910px;
 }
 
 
