@@ -765,7 +765,7 @@ h2
 	width: 940px; 
 }
 
-#HeroChatWheel
+#MemeChatWheel
 {
 	max-width: 1600px;
 	height: 496px;
@@ -776,15 +776,34 @@ h2
 	background-position-x: center;
 }
 
-#HeroChatWheel h2
+#MemeChatWheel h2
 {
 	margin-top: 120px;
 }
 
-#HeroChatWheel .Copy
+#MemeChatWheel .Copy
 {
 	margin-top: 20px;
 	width: 500px;
+}
+
+#MemeChatWheel input {
+	position: absolute;
+}
+
+#MemeChatWheel input#AudioButton1 {
+	left: 498px;
+	top: 156px;
+}
+
+#MemeChatWheel input#AudioButton2 {
+	left: 805px;
+	top: 30px;
+}
+
+#MemeChatWheel input#AudioButton3 {
+	left: 1066px;
+	top: 156px;
 }
 
 #WeeklyReward
