@@ -799,6 +799,7 @@ h2
 #MemeChatWheel input#AudioButton2 {
     left: 457px;
     top: 61px;
+    padding-right: 100px;
 }
 
 #MemeChatWheel input#AudioButton3 {
@@ -806,11 +807,15 @@ h2
     top: 107px;
 }
 
+#MemeChatWheel a {
+	text-decoration: underline;
+}
+
 input#AudioButton1:hover,
 input#AudioButton2:hover,
 input#AudioButton3:hover 
 {
-  border-radius: 50%;
+  border-radius: 50px;
   box-shadow: 0 0 0 5px #f4f2b0, 0 0 0 10px #c7a35e;
 }
 
