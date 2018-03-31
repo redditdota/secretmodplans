@@ -806,6 +806,14 @@ h2
     top: 107px;
 }
 
+input#AudioButton1:hover,
+input#AudioButton2:hover,
+input#AudioButton3:hover 
+{
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px #f4f2b0, 0 0 0 10px #c7a35e;
+}
+
 #WeeklyReward
 {
 	margin: auto;
