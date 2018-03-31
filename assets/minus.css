@@ -771,7 +771,7 @@ h2
 	height: 496px;
 	margin: auto;
 
-	background: url( 'chatwheel.png' );
+	background: url( 'chatwheel_minus.png' );
 	background-repeat: no-repeat;
 	background-position-x: center;
 }
@@ -792,18 +792,18 @@ h2
 }
 
 #MemeChatWheel input#AudioButton1 {
-	left: 498px;
-	top: 156px;
+	left: 481px;
+    top: 226px;
 }
 
 #MemeChatWheel input#AudioButton2 {
-	left: 805px;
-	top: 30px;
+    left: 457px;
+    top: 61px;
 }
 
 #MemeChatWheel input#AudioButton3 {
-	left: 1066px;
-	top: 156px;
+	left: 980px;
+    top: 107px;
 }
 
 #WeeklyReward
