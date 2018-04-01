@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Camps Stacked"
+    content: " /r/Dota2 Casuals"
 }
 
 .users-online .number:after {
-    content: " Underlord Ubers";
+    content: " /r/Dota2 Minus Subscribers";
     text-transform: none;
 }
 
@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%jugg-banner%%) no-repeat no-repeat #220501; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%banner-minus%%) no-repeat no-repeat #220501; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -2100,7 +2100,7 @@ a[href="/xc"] {background-position: -160px -165px}
 
 .flair-org          {background-image: url(%%orgs%%)}
 .flair-pennant          {background-image: url(%%pennants%%)}
-.flair-custom           {background-image: url(%%custom%%)}
+.flair-custom           {background-image: url(%%custom-minus%%)}
 
 /* Print Out Flair to comments */
 
@@ -2117,7 +2117,7 @@ a[href|="/hero"]:after, a[href|="/org"]:after, a[href|="/pennant"]:after, a[href
 a[href|="/hero"]:after        {background-image: url(%%heroes%%)}
 a[href|="/org"]:after          {background-image: url(%%orgs%%)}
 a[href|="/pennant"]:after          {background-image: url(%%pennants%%)}
-a[href|="/custom"]:after           {background-image: url(%%custom%%)}
+a[href|="/custom"]:after           {background-image: url(%%custom-minus%%)}
 
 .flair-akasha, a[href="/hero-queenofpain"]:after          { background-position: 0 0px }
 .flair-abaddon, a[href="/hero-abaddon"]:after             { background-position: 0 -28px }
@@ -2411,11 +2411,13 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-arcanajuggernaut2,a[href="/custom-arcanajuggernaut2"]:after { background-position:0 -812px }
 .flair-arcanawisp,a[href="/custom-arcanawisp"]:after               { background-position:0 -840px }
 .flair-nullifier,a[href="/custom-nullifier"]:after                 { background-position:0 -868px } 
+.flair-minus,a[href="/custom-minus"]:after                         { background-position:0 -896px } 
+.flair-slacks,a[href="/custom-slacks"]:after                       { background-position:0 -924px } 
 
 /* Joey fixing techiesface creepymaiden MEMES */
 
 a[href="/techiesface"]:after,a[href="/creepymaiden"]:after {
-     background:transparent url(%%custom%%) no-repeat;
+     background:transparent url(%%custom-minus%%) no-repeat;
      width:50px;
      height:28px;
      display:inline-block;
@@ -2702,31 +2704,32 @@ background-position:-2px -234px
 /* Fade Flair
 .post-linkflair-esports .flair-teamwings {opacity: .2;}   */
 
-div.odd.stickied,
-div.odd.stickied div.entry {
+
+div.id-t3_88nbqv.stickied,
+div.id-t3_88nbqv.stickied div.entry {
     height: 190px;
 }
 
-div.odd.stickied span.rank,
-div.odd.stickied .midcol.unvoted,
-div.odd.stickied p.tagline,
-div.odd.stickied div.expando-button,
-div.odd.stickied p.title *:not(.title)
+div.id-t3_88nbqv.stickied span.rank,
+div.id-t3_88nbqv.stickied .midcol.unvoted,
+div.id-t3_88nbqv.stickied p.tagline,
+div.id-t3_88nbqv.stickied div.expando-button,
+div.id-t3_88nbqv.stickied p.title *:not(.title)
 {
     display: none;
 }
 
-div.odd.stickied div.top-matter,
-div.odd.stickied p.title, 
-div.odd.stickied p.title a.title {
+div.id-t3_88nbqv.stickied div.top-matter,
+div.id-t3_88nbqv.stickied p.title, 
+div.id-t3_88nbqv.stickied p.title a.title {
     height: inherit;
 }
 
-div.odd.stickied div.top-matter {
+div.id-t3_88nbqv.stickied div.top-matter {
     background-color: black;
 }
 
-div.odd.stickied p.title a.title {
+div.id-t3_88nbqv.stickied p.title a.title {
     background: url(%%Minus-subheader%%) no-repeat;
     background-position-x: left;
     display: block;
@@ -2734,27 +2737,29 @@ div.odd.stickied p.title a.title {
 }
 
 
-div.odd.stickied ul.flat-list.buttons {
+div.id-t3_88nbqv.stickied ul.flat-list.buttons {
     position: absolute;
     top: 150px;
     width: 100%;
     text-align: center;
 }
 
-div.odd.stickied li {
+div.id-t3_88nbqv.stickied li {
     display: none;
 }
 
-div.odd.stickied li:not([class]) {
+div.id-t3_88nbqv.stickied li.first,
+div.id-t3_88nbqv.stickied li:not([class]) {
     display: block;
 }
 
-div.odd.stickied li:not([class]) ~ li:not([class]) {
+div.id-t3_88nbqv.stickied li:not([class]) ~ li:not([class]) {
     display: none;
 }
 
-div.odd.stickied li a[action=hide],
-div.odd.stickied li a[action=unhide] {
+div.id-t3_88nbqv.stickied li.first a,
+div.id-t3_88nbqv.stickied li a[action=hide],
+div.id-t3_88nbqv.stickied li a[action=unhide] {
     display: block;
 
     background-image: url(%%button%%);
@@ -2767,7 +2772,7 @@ div.odd.stickied li a[action=unhide] {
     text-shadow: 1px 1px 2px #000000;
     color: #ba9e88;
     line-height: 24px;
-    font-size: 16px;
+    
     letter-spacing: 2px;
     text-align: center;
     text-decoration: none;
@@ -2776,14 +2781,36 @@ div.odd.stickied li a[action=unhide] {
     margin: auto;
 
     position: absolute;
-    left: 220px;
 }
 
-/*
-div.odd.stickied ~ div div,
-div.odd.stickied ~ div a,
-div.odd.stickied ~ div a.title {
-    color: transparent!important;
-    text-shadow: 0 0 1.5em #000
-}*/
+div.id-t3_88nbqv.stickied li.first a {
+    left: 220px;
+    font-size: 10px
+}
 
+div.id-t3_88nbqv.stickied li a[action=hide],
+div.id-t3_88nbqv.stickied li a[action=unhide] {
+    left: 380px;
+    font-size: 16px;
+}
+
+div.id-t3_88koby span.spoiler-stamp {
+    color: orange;
+    font-weight: bolder;
+}
+
+div.id-t3_88koby span.spoiler-stamp span {
+    display: none;
+}
+
+div.id-t3_88koby span.spoiler-stamp.stamp::after {
+    content: "/R/DOTA2 MINUS";
+}
+
+div.id-t3_88koby button.expando-gate__show-once {
+    display: none;
+}
+
+div.id-t3_88koby div.expando-gate__controls::after {
+    content: "/R/DOTA2 MINUS SUBSCRIBERS ONLY. EVERYONE ELSE PLEASE SHOO.";
+}
