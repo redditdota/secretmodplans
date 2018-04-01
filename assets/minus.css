@@ -776,6 +776,14 @@ h2
 	background-position-x: center;
 }
 
+.chatwheelaudio {
+	padding-left: 25px; 
+	padding-right: 5px; 
+	font-weight: bold; 
+	width: auto; 
+	display: inline-block;
+}
+
 #MemeChatWheel h2
 {
 	margin-top: 120px;
@@ -812,10 +820,24 @@ h2
 
 input#AudioButton1:hover,
 input#AudioButton2:hover,
-input#AudioButton3:hover 
+input#AudioButton3:hover
 {
   border-radius: 50px;
   box-shadow: 0 0 0 5px #f4f2b0, 0 0 0 10px #c7a35e;
+}
+
+input#AudioButton4:hover,
+input#AudioButton5:hover,
+input#AudioButton6:hover,
+input#AudioButton7:hover,
+input#AudioButton8:hover,
+input#AudioButton9:hover,
+input#AudioButton10:hover,
+input#AudioButton11:hover,
+input#AudioButton12:hover
+{
+  border-radius: 50px;
+  box-shadow: 0 0 0 2px #f4f2b0, 0 0 0 4px #c7a35e;
 }
 
 #WeeklyReward
